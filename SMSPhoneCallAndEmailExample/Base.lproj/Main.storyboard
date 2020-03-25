@@ -44,6 +44,14 @@
                                     <action selector="makePhoneCallWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eDX-m9-9K6"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="shv-Ov-aTD">
+                                <rect key="frame" x="20" y="574" width="339" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Instructions"/>
+                                <connections>
+                                    <action selector="btnInstructions:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BaX-hs-zPg"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -93,6 +101,14 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="M9g-cf-YYO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="424.80000000000001" y="-15.742128935532236"/>
+        </scene>
+        <!--Instructions Page View Controller-->
+        <scene sceneID="Qbb-Sm-tFg">
+            <objects>
+                <pageViewController storyboardIdentifier="instructionsVC" autoresizesArchivedViewToFullSize="NO" transitionStyle="pageCurl" navigationOrientation="horizontal" spineLocation="min" id="pUC-r1-jrx" customClass="InstructionsPageViewController" customModule="SMSPhoneCallAndEmailExample" customModuleProvider="target" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oq7-wZ-UMe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1198" y="-15"/>
         </scene>
     </scenes>
     <resources>

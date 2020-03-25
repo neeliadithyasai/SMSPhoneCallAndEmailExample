@@ -71,5 +71,11 @@ class PhoneCallAndSMSViewController: UIViewController, MFMessageComposeViewContr
         }
     }
     
+    @IBAction func btnInstructions(_ sender: Any) {
+        
+         
+    }
+    
+    
 }
 
